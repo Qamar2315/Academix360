@@ -17,3 +17,7 @@ sized/
 thumbs/
 _thumbs/
 */expressionengine/cache/*
+
+# node_modules
+server/node_modules
+client/node_modules

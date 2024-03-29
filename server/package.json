@@ -4,11 +4,17 @@
   "description": "server for academix360 which is a comprehensive LMS for schools",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "npm test",
+    "start": "nodemon index.js"
   },
   "keywords": [
     "nodejs"
   ],
   "author": "Qamar Ul Islam",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.2.4"
+  }
 }
